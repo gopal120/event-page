@@ -1,0 +1,35 @@
+.venue {
+  padding: 10px;
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  text-align: center;
+  font-size: 25px;
+}
+.venue p {
+  color: #888;
+}
+.maps {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 50px;
+  place-content: center;
+}
+.address {
+  place-self: center;
+}
+.one {
+  padding: 15px;
+}
+@media screen and (max-width: 830px) {
+  .maps {
+    display: block;
+  }
+  iframe {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 580px) {
+  iframe {
+    width: 300px;
+  }
+}
